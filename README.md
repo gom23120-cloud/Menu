@@ -1,11 +1,1 @@
-workflows:
-  flutter-release-build:
-    name: Flutter Release APK
-    max_build_duration: 60
-    environment:
-      flutter: stable
-    scripts:
-      - flutter pub get
-      - flutter build apk --release
-    artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk
+
